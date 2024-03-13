@@ -1,0 +1,17 @@
+@media screen and (max-width: 820px)  {
+    nav ul li{
+        font-size: 30px;
+    }
+
+    .auth button {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    nav,
+    .auth{
+        display: none;
+    }
+}

@@ -1,0 +1,82 @@
+body{
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+  font-size: 60px;
+  background-color: 	#af1818d2;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+} 
+
+.container{
+    max-width: 1400px;
+    padding: 0 100px;
+    margin: auto;
+}
+
+.header__top{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background-color: 	#fdee90b3;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+.logo img{
+  display: block;
+  width: 50px;
+  height: 40px;
+}
+
+nav ul{
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li{
+  color: aqua;
+  font-size: 60px;
+}
+.auth button{
+  outline: none;
+  border: none;
+  background-color: 	#ffec73;
+  color: #000000;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.info__text{
+  font-family: "Madimi One", sans-serif;
+  min-width: 100vh;
+  border-radius: 30px;
+  background-image: url(111.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 18px
+  
+}
+
+.info__text p{
+  font-family: "Madimi One", sans-serif;
+}
